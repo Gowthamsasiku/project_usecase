@@ -6,7 +6,7 @@ from langchain_community.document_loaders import PyPDFLoader, UnstructuredExcelL
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # ✅ Configure Gemini API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCifH1ULezGIabrpPk8gcYT1WMoXskvl5k"
+os.environ["GOOGLE_API_KEY"] = "Your API KEY"
 
 DATA_FOLDER = r"C:\Users\HP\Desktop\Usecase\project_usecase\Data"
 print("📁 Checking folder path:", DATA_FOLDER)
