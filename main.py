@@ -9,7 +9,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import OpenAIEmbeddings
 
 
-os.environ["OPENAI_API_KEY"] = "AIzaSyCifH1ULezGIabrpPk8gcYT1WMoXskvl5k"
+os.environ["OPENAI_API_KEY"] = "YOUR API KEY"
 DATA_FOLDER = r"C:\Users\HP\Desktop\Usecase\project_usecase\Data"
 print("📁 Checking folder path:", DATA_FOLDER)
 print("📄 Files found in folder:", os.listdir(DATA_FOLDER))
